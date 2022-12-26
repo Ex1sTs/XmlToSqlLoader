@@ -69,7 +69,7 @@ namespace testCase
                         }
                         else
                         {
-                            sum = double.Parse(node.InnerText, System.Globalization.CultureInfo.InvariantCulture);
+                            sum = double.Parse(node.InnerText, CultureInfo.InvariantCulture);
                         }
                     }
 
@@ -102,7 +102,7 @@ namespace testCase
                                 }
                                 else
                                 {
-                                    price = double.Parse(childNode.InnerText, System.Globalization.CultureInfo.InvariantCulture);
+                                    price = double.Parse(childNode.InnerText, CultureInfo.InvariantCulture);
                                 }
                             }
                         }
